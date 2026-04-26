@@ -1,36 +1,18 @@
 # API Workflow Integration System
 
-## System Overview
-This project demonstrates how a workflow automation system can be implemented programmatically using APIs.
+This project shows how a workflow system can be implemented using a simple API.
 
-## System Model
-Input → API → Validation → Processing → Storage → Response
+## What it does
 
-## Features
-- Create leave request via API
-- Validate input fields
-- Store requests in system
-- Retrieve all requests
+- Accepts leave requests
+- Stores them
+- Returns all requests
 
-## API Endpoints
+## Flow
 
-### Create Request
-POST /leave-request
+User → API → Store → Response
 
-### Get Requests
-GET /requests
+## Tech Used
 
-## Architecture
-- API Layer: Flask
-- Logic Layer: Python
-- Data Layer: In-memory storage
-
-## Business Value
-- Demonstrates transition from low-code workflows to API-based systems
-- Shows ability to implement workflow logic programmatically
-
-## Skills Demonstrated
-- API development
-- Workflow implementation
-- Input validation
-- System design
+- Python
+- Flask
